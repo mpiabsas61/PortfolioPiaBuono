@@ -6,7 +6,7 @@ Este proyecto es la página de presentación personal y portfolio web desarrolla
 
 ## 📸 Vista Previa
 
-<img src="assets/img/sample.png" alt="Muestra del Portfolio Web" width="100%">
+<img src="/img/sample.png" alt="Muestra del Portfolio Web" width="100%">
 
 ---
 
