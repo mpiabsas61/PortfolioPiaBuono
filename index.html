@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Personal - IFTS 16</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+     
+
+</head>
+<body>
+    <!-- COMENTARIO 1: Encabezado principal con el menú de navegación organizado en una lista horizontal -->
+    <header>
+        <h1>Mi Portfolio Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#que-hago">Qué hago</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <!-- COMENTARIO 2: Sección de presentación imagen propia e información personal -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="img/pia.png" alt="Foto de perfil de Pia">
+            <p>¡Hola! Soy Maria Pia Buono, estudiante de Desarrollo Web Frontend.</p>
+        </section>
+
+         <!-- Sección "Qué hago" dividida en artículos independientes -->
+        <section id="que-hago">
+            <h2>Qué hago</h2>
+            <article>
+                <h3>Desarrollo Web Frontend</h3>
+                <p>Diseño e implemento páginas web responsivas utilizando HTML5, CSS3 y buenas prácticas de maquetación.</p>
+            </article>
+            <article>
+                <h3>Diseño UI / UX</h3>
+                <p>Creo prototipos enfocados en brindar una navegación intuitiva y una experiencia de usuario cuidada.</p>
+            </article>
+        </section>
+        <!-- COMENTARIO 3: Tabla personalizada para detallar las tecnologías que manejo y quiero aprender -->
+        <section id="tecnologias">
+            <h2>Tecnologías y Habilidades</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tecnología</th>
+                        <th>Estado</th>
+                        <th>Categoría</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5 & CSS3</td>
+                        <td>En uso</td>
+                        <td>Frontend</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermedio</td>
+                        <td>Lenguaje</td>
+                    </tr>
+                    <tr>
+                        <td>Git & GitHub</td>
+                        <td>Intermedio</td>
+                        <td>Herramientas</td>
+                    </tr>
+                    <tr>
+                        <td>Plex</td>
+                        <td>Avanzado</td>
+                        <td>Herramientas</td>
+                    </tr>
+                    <tr>
+                        <td>SQLServer</td>
+                        <td>Avanzado</td>
+                        <td>Herramientas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </main>
+    <!-- Formulario de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div>
+                    <button type="submit">
+                        <i class="fa-solid fa-paper-plane"></i> Enviar
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Autor María Pia Buono &copy; 2026 - <br> Mi Portfolio Personal | IFTS 16 
+        <a href="mailto:mpia.bsas@gmail.com">mpia.bsas@gmail.com</a></p>
+    </footer>
+</body>
+</html>
