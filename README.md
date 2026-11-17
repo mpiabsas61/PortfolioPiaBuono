@@ -1,36 +1,38 @@
-# Portfolio Personal - Maria Pia Buono
+# Portfolio Personal - María Pía Buono
 
-Este proyecto es la página de presentación personal y portfolio web desarrollada para la materia **Desarrollo Web Frontend** del **IFTS 16**. 
+Portfolio personal desarrollado para la materia **Desarrollo Web Frontend** del **IFTS 16**. Presenta mi experiencia, los servicios que ofrezco y las tecnologías que utilizo.
 
----
+## Vista previa
 
-Vista Previa
+![Vista previa del portfolio](img/muestra.png)
 
-<img src="/img/muestra.png" alt="Muestra del Portfolio Web" width="100%">
+## Secciones
 
----
+- **Sobre mí:** presentación personal y foto de perfil.
+- **Qué hago:** experiencia y áreas de especialización.
+- **Tecnologías y habilidades:** tabla con tecnologías, nivel y categoría.
+- **Contacto:** formulario con campos para nombre, apellido, email y teléfono.
+- **Redes sociales:** enlaces a Facebook e Instagram en el pie de página.
 
-## Características del Proyecto
+## Características
 
-* Esta página web debe poder mostrar el conocimiento y manejo de elementos en bloque y en línea, además de <div> u
-otras etiquetas semánticas de HTML 5 como <main> o <article>(`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
-* **Secciones Integradas:**
-  * **Sobre mí:** Presentación personal e imagen de perfil.
-  * **Qué hago:** Descripción detallada de servicios y áreas de especialización.
-  * **Tecnologías:** Tabla estilizada con pseudoclases para enumerar habilidades y tecnologías a aprender.
-  * **Contacto:** Formulario completo con campos de Nombre, Apellido, Email, Teléfono y botón de envío con ícono.
-*
----
+- Estructura semántica HTML5 con `header`, `nav`, `main`, `section`, `article` y `footer`.
+- Diseño con CSS3 y Flexbox para organizar los contenedores.
+- Anchos relativos y diseño adaptable a distintos tamaños de pantalla.
+- Cuatro puntos de corte responsivos: 1080 px, 768 px, 480 px y 375 px.
+- Filas de la tabla de tecnologías coloreadas alternadamente y resaltadas al pasar el cursor.
 
-## Estructura del Proyecto
+## Estructura del proyecto
 
 ```text
 /
-├── index.html          # Archivo principal de la página web
-├── README.md           # Documentación del proyecto
+├── index.html
+├── README.md
 ├── css/
-│   └── styles.css      # Hoja de estilos externa.
-└── img/                # Imágenes e iconos (< 500 KB)
-        ├── pia.png     
-        # Foto personal
-        └── muestra.png  # Captura de pantalla del proyecto
+│   └── styles.css
+└── img/
+    ├── pia.png
+    └── muestra.png
+```
+
+Para ver el portfolio, abre `index.html` en un navegador.
